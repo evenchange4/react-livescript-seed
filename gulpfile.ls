@@ -15,9 +15,8 @@ require!{
 }
 
 # port config
-DEV_PORT = 1608
-PRO_PORT = 1609
-LIVERELOAD_PORT = 35799
+DEV_PORT = 3000
+LIVERELOAD_PORT = 33333
 
 app = express!
 server = tiny-lr!
@@ -29,12 +28,6 @@ gulp.task \devexpress, ->
   app.use connect-history-api-fallback
   app.use express.static path.resolve \./app/
   app.listen DEV_PORT
-gulp.task \productionexpress, ->
-  gulp-util.log "Listening on port: #{proDEV_PORT}"
-  app.use connect-livereload!
-  app.use connect-history-api-fallback
-  app.use express.static path.resolve \./dist/
-  app.listen proDEV_PORT
 
 # livereload tasks
 gulp.task \html, ->

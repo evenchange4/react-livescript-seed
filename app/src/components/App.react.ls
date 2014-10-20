@@ -6,6 +6,6 @@ require! {
 
 App = react.createClass do
   render: ->
-    div className: \outlineapp, "I am satisfied 33"
+    div className: \outlineapp, "I am satisfied"
 
 module.exports = App
