@@ -5,6 +5,7 @@
 - LiveScipt
 - Gulp.js
 - LiveReload
+- Browserify
 - React JSX with livescript
 
 ## Usage
@@ -60,6 +61,5 @@ Now browse to the app at `http://127.0.0.1:4000` .
 │   └── js
 │       └── app-8b633c80.js
 ├── gulpfile.js
-├── gulpfile.ls
 └── package.json
 ```
