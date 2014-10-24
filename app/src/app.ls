@@ -1,8 +1,8 @@
 require! {
   \react 
-  \App : \./components/App.react
+  \./components/App.react
 }
 
 react.renderComponent do
   App null 
-  document.getElementById \react
+  document.getElementById \container
