@@ -1,8 +1,9 @@
 require! {
-  \react 
-  \./components/App.react
+  \react : React
 }
 
-react.renderComponent do
+App = React.createFactory require \./components/App.react
+
+React.render do
   App null 
   document.getElementById \container

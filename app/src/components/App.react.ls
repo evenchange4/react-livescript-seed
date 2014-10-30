@@ -1,14 +1,14 @@
 require! {
-  \react 
+  \react : React
   \../actions/AppActionCreators
-  \./TextItem.react
   \../stores/TextItemStore
   \../constants/AppConstants
 } 
 
-{ div, h1, p } = react.DOM
+{ div, h1, p } = React.DOM
+TextItem = React.createFactory require \./TextItem.react
 
-App = react.createClass do
+App = React.createClass do
 
   getInitialState: ->
     @getTruth!

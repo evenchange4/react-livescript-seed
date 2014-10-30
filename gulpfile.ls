@@ -23,7 +23,7 @@ require!{
 # port config
 DEV_PORT = 3000
 PRO_PORT = 4000
-LIVERELOAD_PORT = 33333
+LIVERELOAD_PORT = 35729
 
 app = express!
 server = tiny-lr!
