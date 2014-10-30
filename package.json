@@ -4,8 +4,7 @@
   "description": "react-livescript-seed",
   "main": "index.js",
   "scripts": {
-    "start": "lsc -bc gulpfile.ls;gulp",
-    "pulish": "lsc -bc gulpfile.ls;gulp publish"
+    "start": "lsc -bc gulpfile.ls;gulp"
   },
   "keywords": [
     "gulpjs",

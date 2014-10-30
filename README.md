@@ -62,3 +62,10 @@ Now browse to the app at `http://127.0.0.1:4000` .
 ├── gulpfile.js
 └── package.json
 ```
+
+## Deploy GitHub Pages
+
+```
+$ git push origin --delete gh-pages
+$ git subtree push --prefix dist origin gh-pages
+```
