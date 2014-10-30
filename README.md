@@ -1,4 +1,5 @@
 # React LiveScript Seed
+Quick starter of React-Flux LiveScript Project seed. DEOM: http://michaelhsu.tw/react-livescript-seed/
 
 # Feature
 
