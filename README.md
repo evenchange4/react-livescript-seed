@@ -6,7 +6,6 @@
 - Gulp.js
 - LiveReload
 - Browserify
-- React JSX with livescript
 
 ## Usage
 ### 0. Install Dependencies
