@@ -1,4 +1,6 @@
 # React LiveScript Seed
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/evenchange4/react-livescript-seed.svg)](https://greenkeeper.io/)
 Quick starter of React-Flux LiveScript Project seed. DEOM: http://michaelhsu.tw/react-livescript-seed/
 
 # Feature
